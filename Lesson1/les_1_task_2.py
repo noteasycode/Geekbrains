@@ -13,6 +13,9 @@ x2 = float(input("\tx2 = "))
 y2 = float(input("\ty2 = "))
 
 print("Уравнение прямой, проходящей через эти точки:")
-k = (y1 - y2) / (x1 - x2)
-b = y2 - k * x2
-print(" y = %.2f*x + 5%.2f" % (k, b))
+if x1 == x2:
+    print(f"x = {x1:.2f} ")
+else:
+    k = (y1 - y2) / (x1 - x2)
+    b = y2 - k * x2
+    print(f"y = {k:.2f} * x + {b:.2f}")
