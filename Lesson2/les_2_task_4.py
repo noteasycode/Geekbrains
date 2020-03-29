@@ -4,8 +4,7 @@
 вводится с клавиатуры.
 """
 num = int(input("Введите количество n элементов:"))
-left_num = '1'
-result = 1
+left_num, result = '1', 1
 
 while num > 1:
     divide = float(left_num) / -2
