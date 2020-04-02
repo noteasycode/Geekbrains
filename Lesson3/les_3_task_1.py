@@ -8,7 +8,7 @@ a = [_ for _ in range(2, 100)]
 b = [_ for _ in range(2, 10)]
 result = [0]*8
 
-for i, j in a:
+for i in a:
     for j in b:
         if i % j == 0:
             result[j-2] += 1
