@@ -25,5 +25,5 @@ if max_index - min_index < 0:
 for i in array[min_index + step:max_index:step]:
     sum += i
 
-print(f'Сумма элементов между минимальным {array[min_index]}',
-        f' и максимальным ({array[max_index]}) элементами: {sum}')
+print(f'Сумма элементов между минимальным {array[min_index]} '
+      f'и максимальным {array[max_index]} элементами составляет: {sum}')
